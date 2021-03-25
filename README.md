@@ -1,4 +1,4 @@
-## React Cursor Follower Beta v0.0.1
+## React Cursor Pointer Beta v0.0.1
 
 A library that can create custom design that follows around your mouse cursor on the screen.
 
