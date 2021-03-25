@@ -37,7 +37,7 @@ Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 
 ## Contributing
 
-<a href="https://github.com/jayariglesias/react-cursor-follower.git"><strong>GITHUB</strong></a>
+<a href="https://github.com/jayariglesias/react-custom-pointer.git"><strong>GITHUB</strong></a>
 
 ## License
 
