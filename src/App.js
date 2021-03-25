@@ -4,12 +4,12 @@ import './styles/cursor.css';
 
 function App() {
   return (
-    <div>
-      <Cursor>
+    <>
+      <Cursor type="default">
         <div className="circle"></div>
         <div className="circle"></div>
       </Cursor>
-    </div>
+    </>
   );
 }
 

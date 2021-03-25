@@ -5,10 +5,10 @@ export default function Cursor(props) {
         document.getElementById('cursor').style.top = e.clientY + 'px';
     });
 
-    document.body.cursor = 'none'
+    document.body.style.cursor = props.type || 'default';
 
     return (
-        <div id="cursor" style={{position:'absolute',cursor:props.type}} className={props.className}>
+        <div id="cursor" style={{position:'absolute'}} className={props.className}>
             {props.children}
         </div>
     )
