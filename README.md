@@ -1,30 +1,51 @@
-# react-cursor-follower
+## React Cursor Follower Beta v0.0.1
 
-> 
+A library that can create custom design that follows around your mouse cursor on the screen.
 
-[![NPM](https://img.shields.io/npm/v/react-cursor-follower.svg)](https://www.npmjs.com/package/react-cursor-follower) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Install
+## Installation
+
+Using npm:
 
 ```bash
-npm install --save react-cursor-follower
+$ npm install react-cursor-follower --save
 ```
 
-## Usage
+## Example
+```javascript
+import React from "react";
+import Cursor from "react-cursor-follower";
 
-```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'react-cursor-follower'
-import 'react-cursor-follower/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+export default function Example() {
+  return (
+    <>
+      <Cursor type="default">
+            {/* YOUR DESIGN HERE */}
+            <div>SAMPLE</div>
+      </Cursor>
+    </>
+  );
 }
 ```
 
+
+## Browser Support
+
+![Chrome](https://raw.githubusercontent.com/jayariglesias/jayariglesias/main/chrome.png) | ![Firefox](https://raw.githubusercontent.com/jayariglesias/jayariglesias/main/firefox.png) | ![Safari](https://raw.githubusercontent.com/jayariglesias/jayariglesias/main/safari.png) | ![Opera](https://raw.githubusercontent.com/jayariglesias/jayariglesias/main/opera.png) | ![Edge](https://raw.githubusercontent.com/jayariglesias/jayariglesias/main/chromium.png) | ![IE](https://raw.githubusercontent.com/jayariglesias/jayariglesias/main/explorer.png) |
+--- | --- | --- | --- | --- | --- |
+Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
+
+## Contributing
+
+<a href="https://github.com/jayariglesias/react-cursor-follower.git"><strong>GITHUB</strong></a>
+
 ## License
 
-MIT © [jayariglesias](https://github.com/jayariglesias)
+MIT © (https://github.com/jayariglesias)
+
+<img height="50" width="50" src="https://raw.githubusercontent.com/jayariglesias/jayariglesias/main/name.png" />
+
+
+
+
+
