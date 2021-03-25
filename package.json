@@ -12,7 +12,7 @@
     "Animation"
   ],
   "license": "MIT",
-  "repository": "jayariglesias/react-cursor-follower",
+  "repository": "jayariglesias/react-custom-pointer",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
