@@ -1,11 +1,13 @@
-// import './App.css';
 import Cursor from './components/cursor';
+import './styles/cursor.css';
+
+
 function App() {
-  
   return (
     <div>
       <Cursor>
-        <div>samole</div>
+        <div className="circle"></div>
+        <div className="circle"></div>
       </Cursor>
     </div>
   );

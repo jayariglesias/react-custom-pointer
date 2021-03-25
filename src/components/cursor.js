@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Cursor(props) {
 
     document.addEventListener('mousemove',(e) => {
@@ -7,8 +5,10 @@ export default function Cursor(props) {
         document.getElementById('cursor').style.top = e.clientY + 'px';
     });
 
+    document.body.cursor = 'none'
+
     return (
-        <div id="cursor" style={{position:'absolute'}} className={props.className}>
+        <div id="cursor" style={{position:'absolute',cursor:props.type}} className={props.className}>
             {props.children}
         </div>
     )

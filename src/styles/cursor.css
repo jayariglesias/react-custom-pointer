@@ -1,0 +1,42 @@
+.circle:nth-child(1) {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: #242424;
+  animation: rotate 1s infinite ease-in-out;
+}
+
+.circle:nth-child(2) {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: #242424;
+  animation: rotate 1.5s infinite ease-in-out;
+}
+
+@keyframes rotate {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 15px;
+    top: 5px;
+  }
+  50% {
+    left: 5px;
+    top: 15px;
+  }
+  75% {
+    left: -15px;
+    top: 5px;
+  }
+  100% {
+    left: 0px;
+    right: 0px;
+  }
+}
