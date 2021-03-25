@@ -8,13 +8,13 @@ A library that can create custom design that follows around your mouse cursor on
 Using npm:
 
 ```bash
-$ npm install react-cursor-follower --save
+$ npm install react-custom-pointer --save
 ```
 
 ## Example
 ```javascript
 import React from "react";
-import Cursor from "react-cursor-follower";
+import Cursor from "react-custom-pointer";
 
 export default function Example() {
   return (

@@ -1,8 +1,16 @@
 {
-  "name": "react-animated-pointer",
+  "name": "react-custom-pointer",
   "version": "1.0.0",
   "description": "",
   "author": "jayariglesias",
+  "keywords": [
+    "ReactJS",
+    "Cursor",
+    "Pointer",
+    "Mouse",
+    "Custom",
+    "Animation"
+  ],
   "license": "MIT",
   "repository": "jayariglesias/react-cursor-follower",
   "main": "dist/index.js",
