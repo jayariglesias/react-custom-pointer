@@ -1,4 +1,5 @@
 import React from 'react'
+import './hide.css';
 
 export default function Cursor(props) {
 
