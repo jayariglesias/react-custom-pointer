@@ -11,8 +11,8 @@ export default function Cursor(props) {
   document.body.style.cursor = props.type || 'default';
 
   return (
-      <div id="cursor" style={{position:'absolute'}} className={props.className || 'custom-cursor'}>
-          {props.children}
+      <div id="cursor" style={{position:'absolute'}} className={props.className}>
+          {window.innerWidth > 768 && props.children}
       </div>
   )
 }
