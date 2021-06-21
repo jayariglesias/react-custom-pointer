@@ -41,9 +41,7 @@ Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 
 ## License
 
-MIT © (https://github.com/jayariglesias)
-
-<img height="50" width="50" src="https://raw.githubusercontent.com/jayariglesias/jayariglesias/main/name.png" />
+MIT
 
 
 
