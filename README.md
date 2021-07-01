@@ -1,4 +1,4 @@
-## React Custom Pointer`
+## React Custom Pointer
 
 A library that can create custom design that follows around your mouse cursor on the screen.
 
